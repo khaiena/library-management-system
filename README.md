@@ -13,7 +13,7 @@ A web-based library management system built as a final school project to explore
 
 -----
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 |Layer   |Technology           |
 |--------|---------------------|
@@ -60,9 +60,13 @@ Before running this project, make sure you have:
 
 library-management-system/
 ├── database/         # SQL file for database setup
+
 ├── assets/           # CSS, JS, images
+
 ├── admin/            # Admin panel pages
+
 ├── user/             # User panel pages
+
 └── index.php         # Entry point
 
 
