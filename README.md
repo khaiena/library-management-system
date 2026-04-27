@@ -28,8 +28,8 @@ A web-based library management system built as a final school project to explore
 
 Before running this project, make sure you have:
 
-- *PHP* 8.x ← fill in your version
-- *MySQL* 8.x ← fill in your version
+- *PHP* 8.x 
+- *MySQL* 8.x 
 - *WAMP* or *XAMPP* installed
 
 -----
