@@ -1,6 +1,6 @@
 #  Library Management System
 
-A web-based library management system built as a final school project to explore system design, user roles, and API integration.
+A web-based library management system built to explore system design, user roles, and API integration.
 
 -----
 
