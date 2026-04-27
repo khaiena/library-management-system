@@ -8,8 +8,7 @@
 - PHP (WAMP)
 - MySQL
 - JavaScript
-
-  ## How to Run
+## How to Run
 
 1. Clone this repository
 2. Move project to your local server (htdocs for XAMPP/WAMP)
@@ -17,7 +16,6 @@
 4. Run via localhost
 
 Note: ISBN scanner works for international books.
-
 ## About
 
 This project was built as a final school project to explore system design, user roles, and API integration.
