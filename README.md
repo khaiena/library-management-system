@@ -60,9 +60,7 @@ Before running this project, make sure you have:
 
 library-mvc/
 
-
 ├── app/
-
 
 │   ├── controllers/          # Handles request logic
 
