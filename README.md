@@ -59,6 +59,7 @@ Before running this project, make sure you have:
 
 
 library-management-system/
+
 ├── database/         # SQL file for database setup
 
 ├── assets/           # CSS, JS, images
