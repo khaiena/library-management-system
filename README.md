@@ -59,42 +59,116 @@ Before running this project, make sure you have:
 
 
 library-mvc/
+
+
 ├── app/
+
+
 │   ├── controllers/          # Handles request logic
+
+
 │   │   ├── AuthController.php
+
+
 │   │   ├── BookController.php
+
+
 │   │   ├── BorrowController.php
+
+
 │   │   ├── DashboardController.php
+
+
 │   │   └── UserController.php
+
+
 │   ├── models/               # Database models
+
+
 │   │   ├── Book.php
+
+
 │   │   ├── Borrowing.php
+
+
 │   │   ├── Category.php
+
+
 │   │   ├── Fine.php
+
+
 │   │   └── User.php
+
+
 │   └── views/                # UI pages
+
+
 │       ├── auth/             # Login & register pages
+
+
 │       ├── books/            # Book CRUD pages
+
+
 │       ├── borrowings/       # Borrow & return pages
+
+
 │       ├── dashboard/        # Dashboard page
+
+
 │       ├── profile/          # User profile page
+
+
 │       ├── users/            # User management pages
+
+
 │       └── partials/         # Reusable components (header, navbar, footer)
-├── config/
+
+
+├── config
+
+
 │   └── database.php          # Database configuration
+
+
 ├── core/
+
+
 │   ├── Database.php          # Core DB connection class
+
+
 │   └── Router.php            # Routing logic
+
+
 ├── database/
+
+
 │   └── library.sql           # SQL file for database setup
+
+
 ├── public/
+
+
 │   ├── assets/
+
+
 │   │   ├── css/              # Stylesheets
+
+
 │   │   ├── js/               # JavaScript files
+
+
 │   │   ├── images/           # Static images
+
+
 │   │   └── vendor/           # Third-party libraries
+
+
 │   ├── uploads/              # User-uploaded files (book covers, payment proofs)
+
+
 │   └── index.php             # Entry point
+
+
 └── README.md
 
 
