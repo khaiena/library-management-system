@@ -24,12 +24,12 @@ A web-based library management system built as a final school project to explore
 
 -----
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Before running this project, make sure you have:
 
-- *PHP* x.x.x ← fill in your version
-- *MySQL* x.x.x ← fill in your version
+- *PHP* 8.x ← fill in your version
+- *MySQL* 8.x ← fill in your version
 - *WAMP* or *XAMPP* installed
 
 -----
@@ -58,17 +58,44 @@ Before running this project, make sure you have:
 ##  Project Structure
 
 
-library-management-system/
-
-├── database/         # SQL file for database setup
-
-├── assets/           # CSS, JS, images
-
-├── admin/            # Admin panel pages
-
-├── user/             # User panel pages
-
-└── index.php         # Entry point
+library-mvc/
+├── app/
+│   ├── controllers/          # Handles request logic
+│   │   ├── AuthController.php
+│   │   ├── BookController.php
+│   │   ├── BorrowController.php
+│   │   ├── DashboardController.php
+│   │   └── UserController.php
+│   ├── models/               # Database models
+│   │   ├── Book.php
+│   │   ├── Borrowing.php
+│   │   ├── Category.php
+│   │   ├── Fine.php
+│   │   └── User.php
+│   └── views/                # UI pages
+│       ├── auth/             # Login & register pages
+│       ├── books/            # Book CRUD pages
+│       ├── borrowings/       # Borrow & return pages
+│       ├── dashboard/        # Dashboard page
+│       ├── profile/          # User profile page
+│       ├── users/            # User management pages
+│       └── partials/         # Reusable components (header, navbar, footer)
+├── config/
+│   └── database.php          # Database configuration
+├── core/
+│   ├── Database.php          # Core DB connection class
+│   └── Router.php            # Routing logic
+├── database/
+│   └── library.sql           # SQL file for database setup
+├── public/
+│   ├── assets/
+│   │   ├── css/              # Stylesheets
+│   │   ├── js/               # JavaScript files
+│   │   ├── images/           # Static images
+│   │   └── vendor/           # Third-party libraries
+│   ├── uploads/              # User-uploaded files (book covers, payment proofs)
+│   └── index.php             # Entry point
+└── README.md
 
 
 -----
